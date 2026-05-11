@@ -1,197 +1,315 @@
 {
   "teachers": [
-    { "id": 101, "name": "Г. Дул", "role": "English Teacher & College Counselor", "department": "Department of Social Sciences", "email": "dul@nhs.edu.mn", "password": "dul1234",
+    { "id": 101, "name": "Г. Дул", "role": "English Teacher & College Counselor", "department": "Department of Social Sciences", "email": "dul@nhs.edu.mn", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=GD&backgroundColor=4f46e5&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=keyboard" },
+        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mouse" }
       ]
     },
-    { "id": 102, "name": "А. Жавзандулам", "role": "Literature Teacher", "department": "Department of Social Sciences", "password": "javzandulam1234",
+    { "id": 102, "name": "А. Жавзандулам", "role": "Literature Teacher", "department": "Department of Social Sciences", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=AJ&backgroundColor=7c3aed&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
+        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=monitor" }
       ]
     },
-    { "id": 103, "name": "Г. Адьяахүү", "role": "Math Teacher", "department": "Department of Physical Sciences", "password": "adiyaakhuu1234",
+    { "id": 103, "name": "Г. Адьяахүү", "role": "Math Teacher", "department": "Department of Physical Sciences", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=GA&backgroundColor=0891b2&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Calculator", "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=scientific+calculator" },
+        { "name": "Whiteboard Marker", "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=whiteboard+marker" }
       ]
     },
-    { "id": 104, "name": "Д. Ранцэнхорлоо", "role": "Math Teacher", "department": "Department of Physical Sciences", "password": "rantsenkhorloo1234",
+    { "id": 104, "name": "Д. Ранцэнхорлоо", "role": "Math Teacher", "department": "Department of Physical Sciences", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=DR&backgroundColor=0891b2&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
+        { "name": "Calculator", "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=scientific+calculator" }
       ]
     },
-    { "id": 105, "name": "Д. Оюунтуяа", "role": "Math Teacher", "department": "Department of Physical Sciences", "password": "oyuuntuyaa1234",
+    { "id": 105, "name": "Д. Оюунтуяа", "role": "Math Teacher", "department": "Department of Physical Sciences", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=DO&backgroundColor=0891b2&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=tablet" },
+        { "name": "Stylus Pen", "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=stylus+pen" }
       ]
     },
-    { "id": 106, "name": "М. Батхишиг", "role": "Chemistry Teacher", "department": "Department of Physical Sciences", "password": "batkhishig1234",
+    { "id": 106, "name": "М. Батхишиг", "role": "Chemistry Teacher", "department": "Department of Physical Sciences", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=MB&backgroundColor=059669&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Lab Coat", "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=lab+coat" },
+        { "name": "Safety Goggles", "image": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=safety+goggles" }
       ]
     },
-    { "id": 107, "name": "С. Болдбаатар", "role": "Physics Teacher", "department": "Department of Physical Sciences", "password": "boldbaatar1234",
+    { "id": 107, "name": "С. Болдбаатар", "role": "Physics Teacher", "department": "Department of Physical Sciences", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=SB&backgroundColor=059669&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Projector", "image": "https://images.unsplash.com/photo-1478416272538-5f7e51dc5400?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=projector" },
+        { "name": "Laser Pointer", "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laser+pointer" }
       ]
     },
-    { "id": 108, "name": "Лавениа", "role": "English Teacher", "department": "Department of Social Sciences", "password": "lavenia1234",
+    { "id": 108, "name": "Лавениа", "role": "English Teacher", "department": "Department of Social Sciences", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=LA&backgroundColor=4f46e5&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" },
+        { "name": "Pen Set", "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=pen+set" }
       ]
     },
-    { "id": 109, "name": "Д. Мөнхбаатар", "role": "English Teacher", "department": "Department of Social Sciences", "password": "munkhbaatar1234",
+    { "id": 109, "name": "Д. Мөнхбаатар", "role": "English Teacher", "department": "Department of Social Sciences", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=DM&backgroundColor=4f46e5&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
+        { "name": "Headphones", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=headphones" }
       ]
     },
-    { "id": 110, "name": "Т. Лхагважаргал", "role": "English Teacher", "department": "Department of Social Sciences", "password": "lkhagvajargal1234",
+    { "id": 110, "name": "Т. Лхагважаргал", "role": "English Teacher", "department": "Department of Social Sciences", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=TL&backgroundColor=4f46e5&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Webcam", "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=webcam" },
+        { "name": "Microphone", "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=microphone" }
       ]
     },
-    { "id": 111, "name": "Т. Чантсалням", "role": "Sociology Teacher", "department": "Department of Social Sciences", "password": "chantsalnyam1234",
+    { "id": 111, "name": "Т. Чантсалням", "role": "Sociology Teacher", "department": "Department of Social Sciences", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=TC&backgroundColor=be185d&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Books", "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=sociology+books" },
+        { "name": "Flash Drive", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+flash+drive" }
       ]
     },
-    { "id": 112, "name": "О. Усухбаатар", "role": "IT Teacher", "department": "IT Department", "password": "usukhbaatar1234",
+    { "id": 112, "name": "О. Усухбаатар", "role": "IT Teacher", "department": "IT Department", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=OU&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
+        { "name": "External SSD", "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=external+ssd" }
       ]
     },
-    { "id": 113, "name": "Б. Барханасболд", "role": "IT Teacher", "department": "IT Department", "password": "barkhasbold1234",
+    { "id": 113, "name": "Б. Барханасболд", "role": "IT Teacher", "department": "IT Department", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=BB&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mechanical+keyboard" },
+        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=gaming+mouse" }
       ]
     },
-    { "id": 114, "name": "С. Тэмүүжин", "role": "IT Developer", "department": "IT Department", "password": "temuujin1234",
+    { "id": 114, "name": "С. Тэмүүжин", "role": "IT Developer", "department": "IT Department", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=ST&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=4k+monitor" },
+        { "name": "Docking Station", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=docking+station" }
       ]
     },
-    { "id": 115, "name": "Э. Мөнх-Оргил", "role": "IT Teacher", "department": "IT Department", "password": "munkhorgil1234",
+    { "id": 115, "name": "Э. Мөнх-Оргил", "role": "IT Teacher", "department": "IT Department", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=EM&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Raspberry Pi", "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=raspberry+pi" },
+        { "name": "USB Hub", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+hub" }
       ]
     },
-    { "id": 116, "name": "Б. Оргил", "role": "IT Developer", "department": "IT Department", "password": "orgil1234",
+    { "id": 116, "name": "Б. Оргил", "role": "IT Developer", "department": "IT Department", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=BO&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=developer+laptop" },
+        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mechanical+keyboard" }
       ]
     },
-    { "id": 117, "name": "Н. Зүнбилэг", "role": "IT Developer", "department": "IT Department", "password": "zunbileg1234",
+    { "id": 117, "name": "Н. Зүнбилэг", "role": "IT Developer", "department": "IT Department", "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=NZ&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://placehold.co/150x150?text=Keyboard" },
-        { "name": "Mouse", "image": "https://placehold.co/150x150?text=Mouse" },
-        { "name": "Laptop", "image": "https://placehold.co/150x150?text=Laptop" }
+        { "name": "Headset", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=developer+headset" },
+        { "name": "External SSD", "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=external+ssd" }
       ]
     }
   ],
 
   "students": [
-    { "id": 1, "firstname": "Ананд", "lastname": "Амарзаяа", "job": "developer", "age": 18, "email": "anand.amarzayaa1@gmail.com", "password": "pass_Anand_!1",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=1&backgroundColor=b6e3f4" },
-    { "id": 2, "firstname": "Ананд", "lastname": "Бамбацогт", "job": "junior", "age": 17, "email": "anand.bambatsogt2@gmail.com", "password": "bamba_secure_2",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=2&backgroundColor=c0aede" },
-    { "id": 3, "firstname": "Анхзаяа", "lastname": "Пурэвсурэн", "job": "designer", "age": 18, "email": "ankhzayaa.purevsuren3@gmail.com", "password": "ankh_design_3",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=3&backgroundColor=d1d4f9" },
-    { "id": 4, "firstname": "Арвидах", "lastname": "Пурэвдорж", "job": "developer", "age": 19, "email": "arvidakh.purevdorj4@gmail.com", "password": "arvi_dev_44",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=4&backgroundColor=b6e3f4" },
-    { "id": 5, "firstname": "Ариунбаяр", "lastname": "Амгаабазар", "job": "manager", "age": 18, "email": "ariunbayar.amgaabazar5@gmail.com", "password": "ariun_mgr_5",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=5&backgroundColor=ffd5dc" },
-    { "id": 6, "firstname": "Батбилэг", "lastname": "Энхбат", "job": "junior", "age": 17, "email": "batbileg.enkhbat6@gmail.com", "password": "bat_jnr_66",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=6&backgroundColor=c0aede" },
-    { "id": 7, "firstname": "Золбоо", "lastname": "Азжаргал", "job": "developer", "age": 18, "email": "zolboo.azjargal7@gmail.com", "password": "zol_dev_77",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=7&backgroundColor=b6e3f4" },
-    { "id": 8, "firstname": "Зоригт", "lastname": "Эрхүүбат", "job": "designer", "age": 17, "email": "zorigt.erkhuubat8@gmail.com", "password": "zor_dsgn_8",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=8&backgroundColor=d1d4f9" },
-    { "id": 9, "firstname": "Маргад", "lastname": "Эрдэнэчулуун", "job": "manager", "age": 19, "email": "margad.erdenechuluun9@gmail.com", "password": "mar_mgr_99",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=9&backgroundColor=ffd5dc" },
-    { "id": 10, "firstname": "Мөнхболд", "lastname": "Мөнхбат", "job": "developer", "age": 18, "email": "munkhbold.munkhbat10@gmail.com", "password": "munkh_dev_10",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=10&backgroundColor=b6e3f4" },
-    { "id": 11, "firstname": "Мөнхнар", "lastname": "Энхтөр", "job": "junior", "age": 17, "email": "munkhnar.enkhtuur11@gmail.com", "password": "nar_jnr_11",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=11&backgroundColor=c0aede" },
-    { "id": 12, "firstname": "Мөнхчимэг", "lastname": "Төвшин", "job": "designer", "age": 18, "email": "munkhchimeg.tovshin12@gmail.com", "password": "chim_dsgn_12",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=12&backgroundColor=d1d4f9" },
-    { "id": 13, "firstname": "Няндорж", "lastname": "Цэрэнпурэв", "job": "developer", "age": 19, "email": "nyandorj.tserenpurev13@gmail.com", "password": "nyan_dev_13",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=13&backgroundColor=b6e3f4" },
-    { "id": 14, "firstname": "Нямрагчаа", "lastname": "Ерөөлт", "job": "manager", "age": 18, "email": "nyamragchaa.yeroolt14@gmail.com", "password": "nyam_mgr_14",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=14&backgroundColor=ffd5dc" },
-    { "id": 15, "firstname": "Пурэвбат", "lastname": "Мөнхбат", "job": "junior", "age": 17, "email": "purevbat.munkhbat15@gmail.com", "password": "purev_jnr_15",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=15&backgroundColor=c0aede" },
-    { "id": 16, "firstname": "Тэмүүлэн", "lastname": "Хурцбаатар", "job": "developer", "age": 18, "email": "temuulen.khurtsbaatar16@gmail.com", "password": "tem_dev_16",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=16&backgroundColor=b6e3f4" },
-    { "id": 17, "firstname": "Тэнүүн", "lastname": "Оч", "job": "designer", "age": 17, "email": "tenuun.och17@gmail.com", "password": "ten_dsgn_17",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=17&backgroundColor=d1d4f9" },
-    { "id": 18, "firstname": "Тэргэл", "lastname": "Батбаатар", "job": "junior", "age": 18, "email": "tergel.batbaatar18@gmail.com", "password": "ter_jnr_18",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=18&backgroundColor=c0aede" },
-    { "id": 19, "firstname": "Цолмон", "lastname": "Батхишиг", "job": "developer", "age": 19, "email": "tsolmon.batkhishig19@gmail.com", "password": "tsol_dev_19",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=19&backgroundColor=b6e3f4" },
-    { "id": 20, "firstname": "Цэлмүүн", "lastname": "Баясгалан", "job": "manager", "age": 18, "email": "tselmuun.bayasgalan20@gmail.com", "password": "tsel_mgr_20",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=20&backgroundColor=ffd5dc" },
-    { "id": 21, "firstname": "Цэлмэг", "lastname": "Батнасан", "job": "designer", "age": 17, "email": "tselmeg.batnasan21@gmail.com", "password": "tsel_dsgn_21",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=21&backgroundColor=d1d4f9" },
-    { "id": 22, "firstname": "Чингүн", "lastname": "Ганцацрал", "job": "junior", "age": 18, "email": "chingun.gantsatsral22@gmail.com", "password": "chin_jnr_22",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=22&backgroundColor=c0aede" },
-    { "id": 23, "firstname": "Энхбилэг", "lastname": "Эрдэнэбаатар", "job": "developer", "age": 19, "email": "enkhbileg.erdenebaatar23@gmail.com", "password": "enkh_dev_23",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=23&backgroundColor=b6e3f4" },
-    { "id": 24, "firstname": "Энхтүшиг", "lastname": "Сугар", "job": "manager", "age": 18, "email": "enkhtushig.sugar24@gmail.com", "password": "enkh_mgr_24",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=24&backgroundColor=ffd5dc" },
-    { "id": 25, "firstname": "Эрхэмбилэг", "lastname": "Мөнхбат", "job": "designer", "age": 17, "email": "erkhembileg.munkhbat25@gmail.com", "password": "erkhem_dsgn_25",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=25&backgroundColor=d1d4f9" },
-    { "id": 26, "firstname": "Уранхишиг", "lastname": "Бат-Эрдэнэ", "job": "junior", "age": 18, "email": "urankhishig.bat-erdene26@gmail.com", "password": "uran_jnr_26",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=26&backgroundColor=c0aede" },
-    { "id": 27, "firstname": "Manlaibaatar", "lastname": "Ulambayr", "job": "junior", "age": 16, "email": "manlaibaatar.ulambayr27@gmail.com", "password": "manla_safe_27",
-      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=27&backgroundColor=b6e3f4" }
+    { "id": 1, "firstname": "Ананд", "lastname": "Амарзаяа", "job": "developer", "age": 18, "email": "anand.amarzayaa1@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=1&backgroundColor=b6e3f4",
+      "items": [
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
+        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mouse" }
+      ]
+    },
+    { "id": 2, "firstname": "Ананд", "lastname": "Бамбацогт", "job": "junior", "age": 17, "email": "anand.bambatsogt2@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=2&backgroundColor=c0aede",
+      "items": [
+        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" },
+        { "name": "Pen Set", "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=pen+set" }
+      ]
+    },
+    { "id": 3, "firstname": "Анхзаяа", "lastname": "Пурэвсурэн", "job": "designer", "age": 18, "email": "ankhzayaa.purevsuren3@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=3&backgroundColor=d1d4f9",
+      "items": [
+        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
+        { "name": "Stylus Pen", "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=stylus+pen" }
+      ]
+    },
+    { "id": 4, "firstname": "Арвидах", "lastname": "Пурэвдорж", "job": "developer", "age": 19, "email": "arvidakh.purevdorj4@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=4&backgroundColor=b6e3f4",
+      "items": [
+        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=keyboard" },
+        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=monitor" }
+      ]
+    },
+    { "id": 5, "firstname": "Ариунбаяр", "lastname": "Амгаабазар", "job": "manager", "age": 18, "email": "ariunbayar.amgaabazar5@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=5&backgroundColor=ffd5dc",
+      "items": [
+        { "name": "Planner", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=planner" },
+        { "name": "Flash Drive", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+flash+drive" }
+      ]
+    },
+    { "id": 6, "firstname": "Батбилэг", "lastname": "Энхбат", "job": "junior", "age": 17, "email": "batbileg.enkhbat6@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=6&backgroundColor=c0aede",
+      "items": [
+        { "name": "Headphones", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=headphones" },
+        { "name": "Laptop Stand", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop+stand" }
+      ]
+    },
+    { "id": 7, "firstname": "Золбоо", "lastname": "Азжаргал", "job": "developer", "age": 18, "email": "zolboo.azjargal7@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=7&backgroundColor=b6e3f4",
+      "items": [
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
+        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=keyboard" }
+      ]
+    },
+    { "id": 8, "firstname": "Зоригт", "lastname": "Эрхүүбат", "job": "designer", "age": 17, "email": "zorigt.erkhuubat8@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=8&backgroundColor=d1d4f9",
+      "items": [
+        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
+        { "name": "Color Pencils", "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=color+pencils" }
+      ]
+    },
+    { "id": 9, "firstname": "Маргад", "lastname": "Эрдэнэчулуун", "job": "manager", "age": 19, "email": "margad.erdenechuluun9@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=9&backgroundColor=ffd5dc",
+      "items": [
+        { "name": "Planner", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=planner" },
+        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=monitor" }
+      ]
+    },
+    { "id": 10, "firstname": "Мөнхболд", "lastname": "Мөнхбат", "job": "developer", "age": 18, "email": "munkhbold.munkhbat10@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=10&backgroundColor=b6e3f4",
+      "items": [
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
+        { "name": "External SSD", "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=external+ssd" }
+      ]
+    },
+    { "id": 11, "firstname": "Мөнхнар", "lastname": "Энхтөр", "job": "junior", "age": 17, "email": "munkhnar.enkhtuur11@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=11&backgroundColor=c0aede",
+      "items": [
+        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" },
+        { "name": "Flash Drive", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+flash+drive" }
+      ]
+    },
+    { "id": 12, "firstname": "Мөнхчимэг", "lastname": "Төвшин", "job": "designer", "age": 18, "email": "munkhchimeg.tovshin12@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=12&backgroundColor=d1d4f9",
+      "items": [
+        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
+        { "name": "Stylus Pen", "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=stylus+pen" }
+      ]
+    },
+    { "id": 13, "firstname": "Няндорж", "lastname": "Цэрэнпурэв", "job": "developer", "age": 19, "email": "nyandorj.tserenpurev13@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=13&backgroundColor=b6e3f4",
+      "items": [
+        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mechanical+keyboard" },
+        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mouse" }
+      ]
+    },
+    { "id": 14, "firstname": "Нямрагчаа", "lastname": "Ерөөлт", "job": "manager", "age": 18, "email": "nyamragchaa.yeroolt14@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=14&backgroundColor=ffd5dc",
+      "items": [
+        { "name": "Planner", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=planner" },
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" }
+      ]
+    },
+    { "id": 15, "firstname": "Пурэвбат", "lastname": "Мөнхбат", "job": "junior", "age": 17, "email": "purevbat.munkhbat15@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=15&backgroundColor=c0aede",
+      "items": [
+        { "name": "Headphones", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=headphones" },
+        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" }
+      ]
+    },
+    { "id": 16, "firstname": "Тэмүүлэн", "lastname": "Хурцбаатар", "job": "developer", "age": 18, "email": "temuulen.khurtsbaatar16@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=16&backgroundColor=b6e3f4",
+      "items": [
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
+        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=monitor" }
+      ]
+    },
+    { "id": 17, "firstname": "Тэнүүн", "lastname": "Оч", "job": "designer", "age": 17, "email": "tenuun.och17@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=17&backgroundColor=d1d4f9",
+      "items": [
+        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
+        { "name": "Color Pencils", "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=color+pencils" }
+      ]
+    },
+    { "id": 18, "firstname": "Тэргэл", "lastname": "Батбаатар", "job": "junior", "age": 18, "email": "tergel.batbaatar18@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=18&backgroundColor=c0aede",
+      "items": [
+        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" },
+        { "name": "Flash Drive", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+flash+drive" }
+      ]
+    },
+    { "id": 19, "firstname": "Цолмон", "lastname": "Батхишиг", "job": "developer", "age": 19, "email": "tsolmon.batkhishig19@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=19&backgroundColor=b6e3f4",
+      "items": [
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
+        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=keyboard" }
+      ]
+    },
+    { "id": 20, "firstname": "Цэлмүүн", "lastname": "Баясгалан", "job": "manager", "age": 18, "email": "tselmuun.bayasgalan20@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=20&backgroundColor=ffd5dc",
+      "items": [
+        { "name": "Planner", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=planner" },
+        { "name": "Webcam", "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=webcam" }
+      ]
+    },
+    { "id": 21, "firstname": "Цэлмэг", "lastname": "Батнасан", "job": "designer", "age": 17, "email": "tselmeg.batnasan21@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=21&backgroundColor=d1d4f9",
+      "items": [
+        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
+        { "name": "Stylus Pen", "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=stylus+pen" }
+      ]
+    },
+    { "id": 22, "firstname": "Чингүн", "lastname": "Ганцацрал", "job": "junior", "age": 18, "email": "chingun.gantsatsral22@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=22&backgroundColor=c0aede",
+      "items": [
+        { "name": "Headphones", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=headphones" },
+        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mouse" }
+      ]
+    },
+    { "id": 23, "firstname": "Энхбилэг", "lastname": "Эрдэнэбаатар", "job": "developer", "age": 19, "email": "enkhbileg.erdenebaatar23@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=23&backgroundColor=b6e3f4",
+      "items": [
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
+        { "name": "External SSD", "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=external+ssd" }
+      ]
+    },
+    { "id": 24, "firstname": "Энхтүшиг", "lastname": "Сугар", "job": "manager", "age": 18, "email": "enkhtushig.sugar24@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=24&backgroundColor=ffd5dc",
+      "items": [
+        { "name": "Planner", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=planner" },
+        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=monitor" }
+      ]
+    },
+    { "id": 25, "firstname": "Эрхэмбилэг", "lastname": "Мөнхбат", "job": "designer", "age": 17, "email": "erkhembileg.munkhbat25@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=25&backgroundColor=d1d4f9",
+      "items": [
+        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
+        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" }
+      ]
+    },
+    { "id": 26, "firstname": "Уранхишиг", "lastname": "Бат-Эрдэнэ", "job": "junior", "age": 18, "email": "urankhishig.bat-erdene26@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=26&backgroundColor=c0aede",
+      "items": [
+        { "name": "Headphones", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=headphones" },
+        { "name": "Flash Drive", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+flash+drive" }
+      ]
+    },
+    { "id": 27, "firstname": "Manlaibaatar", "lastname": "Ulambayr", "job": "junior", "age": 16, "email": "manlaibaatar.ulambayr27@gmail.com", "password": "123456",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=27&backgroundColor=b6e3f4",
+      "items": [
+        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
+        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mouse" }
+      ]
+    }
   ]
 }
