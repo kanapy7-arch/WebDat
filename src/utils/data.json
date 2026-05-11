@@ -1,315 +1,1029 @@
 {
   "teachers": [
-    { "id": 101, "name": "Г. Дул", "role": "English Teacher & College Counselor", "department": "Department of Social Sciences", "email": "dul@nhs.edu.mn", "password": "123456",
+    {
+      "id": 101,
+      "name": "Г. Дул",
+      "role": "English Teacher & College Counselor",
+      "department": "Department of Social Sciences",
+      "email": "dul@nhs.edu.mn",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=GD&backgroundColor=4f46e5&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=keyboard" },
-        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mouse" }
-      ]
+        {
+          "name": "Keyboard",
+          "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=keyboard"
+        },
+        {
+          "name": "Mouse",
+          "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=mouse"
+        }
+      ],
+      "weight_kg": 54,
+      "height_cm": 167
     },
-    { "id": 102, "name": "А. Жавзандулам", "role": "Literature Teacher", "department": "Department of Social Sciences", "password": "123456",
+    {
+      "id": 102,
+      "name": "А. Жавзандулам",
+      "role": "Literature Teacher",
+      "department": "Department of Social Sciences",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=AJ&backgroundColor=7c3aed&textColor=ffffff",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
-        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=monitor" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        },
+        {
+          "name": "Monitor",
+          "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=monitor"
+        }
+      ],
+      "weight_kg": 66,
+      "height_cm": 169
     },
-    { "id": 103, "name": "Г. Адьяахүү", "role": "Math Teacher", "department": "Department of Physical Sciences", "password": "123456",
+    {
+      "id": 103,
+      "name": "Г. Адьяахүү",
+      "role": "Math Teacher",
+      "department": "Department of Physical Sciences",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=GA&backgroundColor=0891b2&textColor=ffffff",
       "items": [
-        { "name": "Calculator", "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=scientific+calculator" },
-        { "name": "Whiteboard Marker", "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=whiteboard+marker" }
-      ]
+        {
+          "name": "Calculator",
+          "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=scientific+calculator"
+        },
+        {
+          "name": "Whiteboard Marker",
+          "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=whiteboard+marker"
+        }
+      ],
+      "weight_kg": 73,
+      "height_cm": 173
     },
-    { "id": 104, "name": "Д. Ранцэнхорлоо", "role": "Math Teacher", "department": "Department of Physical Sciences", "password": "123456",
+    {
+      "id": 104,
+      "name": "Д. Ранцэнхорлоо",
+      "role": "Math Teacher",
+      "department": "Department of Physical Sciences",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=DR&backgroundColor=0891b2&textColor=ffffff",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
-        { "name": "Calculator", "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=scientific+calculator" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        },
+        {
+          "name": "Calculator",
+          "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=scientific+calculator"
+        }
+      ],
+      "weight_kg": 57,
+      "height_cm": 160
     },
-    { "id": 105, "name": "Д. Оюунтуяа", "role": "Math Teacher", "department": "Department of Physical Sciences", "password": "123456",
+    {
+      "id": 105,
+      "name": "Д. Оюунтуяа",
+      "role": "Math Teacher",
+      "department": "Department of Physical Sciences",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=DO&backgroundColor=0891b2&textColor=ffffff",
       "items": [
-        { "name": "Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=tablet" },
-        { "name": "Stylus Pen", "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=stylus+pen" }
-      ]
+        {
+          "name": "Tablet",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=tablet"
+        },
+        {
+          "name": "Stylus Pen",
+          "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=stylus+pen"
+        }
+      ],
+      "weight_kg": 58,
+      "height_cm": 174
     },
-    { "id": 106, "name": "М. Батхишиг", "role": "Chemistry Teacher", "department": "Department of Physical Sciences", "password": "123456",
+    {
+      "id": 106,
+      "name": "М. Батхишиг",
+      "role": "Chemistry Teacher",
+      "department": "Department of Physical Sciences",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=MB&backgroundColor=059669&textColor=ffffff",
       "items": [
-        { "name": "Lab Coat", "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=lab+coat" },
-        { "name": "Safety Goggles", "image": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=safety+goggles" }
-      ]
+        {
+          "name": "Lab Coat",
+          "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=lab+coat"
+        },
+        {
+          "name": "Safety Goggles",
+          "image": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=safety+goggles"
+        }
+      ],
+      "weight_kg": 71,
+      "height_cm": 162
     },
-    { "id": 107, "name": "С. Болдбаатар", "role": "Physics Teacher", "department": "Department of Physical Sciences", "password": "123456",
+    {
+      "id": 107,
+      "name": "С. Болдбаатар",
+      "role": "Physics Teacher",
+      "department": "Department of Physical Sciences",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=SB&backgroundColor=059669&textColor=ffffff",
       "items": [
-        { "name": "Projector", "image": "https://images.unsplash.com/photo-1478416272538-5f7e51dc5400?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=projector" },
-        { "name": "Laser Pointer", "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laser+pointer" }
-      ]
+        {
+          "name": "Projector",
+          "image": "https://images.unsplash.com/photo-1478416272538-5f7e51dc5400?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=projector"
+        },
+        {
+          "name": "Laser Pointer",
+          "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laser+pointer"
+        }
+      ],
+      "weight_kg": 75,
+      "height_cm": 177
     },
-    { "id": 108, "name": "Лавениа", "role": "English Teacher", "department": "Department of Social Sciences", "password": "123456",
+    {
+      "id": 108,
+      "name": "Лавениа",
+      "role": "English Teacher",
+      "department": "Department of Social Sciences",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=LA&backgroundColor=4f46e5&textColor=ffffff",
       "items": [
-        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" },
-        { "name": "Pen Set", "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=pen+set" }
-      ]
+        {
+          "name": "Notebook",
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=notebook"
+        },
+        {
+          "name": "Pen Set",
+          "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=pen+set"
+        }
+      ],
+      "weight_kg": 61,
+      "height_cm": 163
     },
-    { "id": 109, "name": "Д. Мөнхбаатар", "role": "English Teacher", "department": "Department of Social Sciences", "password": "123456",
+    {
+      "id": 109,
+      "name": "Д. Мөнхбаатар",
+      "role": "English Teacher",
+      "department": "Department of Social Sciences",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=DM&backgroundColor=4f46e5&textColor=ffffff",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
-        { "name": "Headphones", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=headphones" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        },
+        {
+          "name": "Headphones",
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=headphones"
+        }
+      ],
+      "weight_kg": 66,
+      "height_cm": 176
     },
-    { "id": 110, "name": "Т. Лхагважаргал", "role": "English Teacher", "department": "Department of Social Sciences", "password": "123456",
+    {
+      "id": 110,
+      "name": "Т. Лхагважаргал",
+      "role": "English Teacher",
+      "department": "Department of Social Sciences",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=TL&backgroundColor=4f46e5&textColor=ffffff",
       "items": [
-        { "name": "Webcam", "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=webcam" },
-        { "name": "Microphone", "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=microphone" }
-      ]
+        {
+          "name": "Webcam",
+          "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=webcam"
+        },
+        {
+          "name": "Microphone",
+          "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=microphone"
+        }
+      ],
+      "weight_kg": 70,
+      "height_cm": 175
     },
-    { "id": 111, "name": "Т. Чантсалням", "role": "Sociology Teacher", "department": "Department of Social Sciences", "password": "123456",
+    {
+      "id": 111,
+      "name": "Т. Чантсалням",
+      "role": "Sociology Teacher",
+      "department": "Department of Social Sciences",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=TC&backgroundColor=be185d&textColor=ffffff",
       "items": [
-        { "name": "Books", "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=sociology+books" },
-        { "name": "Flash Drive", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+flash+drive" }
-      ]
+        {
+          "name": "Books",
+          "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=sociology+books"
+        },
+        {
+          "name": "Flash Drive",
+          "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=usb+flash+drive"
+        }
+      ],
+      "weight_kg": 63,
+      "height_cm": 161
     },
-    { "id": 112, "name": "О. Усухбаатар", "role": "IT Teacher", "department": "IT Department", "password": "123456",
+    {
+      "id": 112,
+      "name": "О. Усухбаатар",
+      "role": "IT Teacher",
+      "department": "IT Department",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=OU&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
-        { "name": "External SSD", "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=external+ssd" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        },
+        {
+          "name": "External SSD",
+          "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=external+ssd"
+        }
+      ],
+      "weight_kg": 78,
+      "height_cm": 169
     },
-    { "id": 113, "name": "Б. Барханасболд", "role": "IT Teacher", "department": "IT Department", "password": "123456",
+    {
+      "id": 113,
+      "name": "Б. Барханасболд",
+      "role": "IT Teacher",
+      "department": "IT Department",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=BB&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mechanical+keyboard" },
-        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=gaming+mouse" }
-      ]
+        {
+          "name": "Keyboard",
+          "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=mechanical+keyboard"
+        },
+        {
+          "name": "Mouse",
+          "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=gaming+mouse"
+        }
+      ],
+      "weight_kg": 66,
+      "height_cm": 174
     },
-    { "id": 114, "name": "С. Тэмүүжин", "role": "IT Developer", "department": "IT Department", "password": "123456",
+    {
+      "id": 114,
+      "name": "С. Тэмүүжин",
+      "role": "IT Developer",
+      "department": "IT Department",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=ST&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=4k+monitor" },
-        { "name": "Docking Station", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=docking+station" }
-      ]
+        {
+          "name": "Monitor",
+          "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=4k+monitor"
+        },
+        {
+          "name": "Docking Station",
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=docking+station"
+        }
+      ],
+      "weight_kg": 73,
+      "height_cm": 170
     },
-    { "id": 115, "name": "Э. Мөнх-Оргил", "role": "IT Teacher", "department": "IT Department", "password": "123456",
+    {
+      "id": 115,
+      "name": "Э. Мөнх-Оргил",
+      "role": "IT Teacher",
+      "department": "IT Department",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=EM&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Raspberry Pi", "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=raspberry+pi" },
-        { "name": "USB Hub", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+hub" }
-      ]
+        {
+          "name": "Raspberry Pi",
+          "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=raspberry+pi"
+        },
+        {
+          "name": "USB Hub",
+          "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=usb+hub"
+        }
+      ],
+      "weight_kg": 76,
+      "height_cm": 179
     },
-    { "id": 116, "name": "Б. Оргил", "role": "IT Developer", "department": "IT Department", "password": "123456",
+    {
+      "id": 116,
+      "name": "Б. Оргил",
+      "role": "IT Developer",
+      "department": "IT Department",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=BO&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=developer+laptop" },
-        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mechanical+keyboard" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=developer+laptop"
+        },
+        {
+          "name": "Keyboard",
+          "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=mechanical+keyboard"
+        }
+      ],
+      "weight_kg": 73,
+      "height_cm": 180
     },
-    { "id": 117, "name": "Н. Зүнбилэг", "role": "IT Developer", "department": "IT Department", "password": "123456",
+    {
+      "id": 117,
+      "name": "Н. Зүнбилэг",
+      "role": "IT Developer",
+      "department": "IT Department",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/initials/svg?seed=NZ&backgroundColor=b45309&textColor=ffffff",
       "items": [
-        { "name": "Headset", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=developer+headset" },
-        { "name": "External SSD", "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=external+ssd" }
-      ]
+        {
+          "name": "Headset",
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=developer+headset"
+        },
+        {
+          "name": "External SSD",
+          "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=external+ssd"
+        }
+      ],
+      "weight_kg": 54,
+      "height_cm": 171
     }
   ],
-
   "students": [
-    { "id": 1, "firstname": "Ананд", "lastname": "Амарзаяа", "job": "developer", "age": 18, "email": "anand.amarzayaa1@gmail.com", "password": "123456",
+    {
+      "id": 1,
+      "firstname": "Ананд",
+      "lastname": "Амарзаяа",
+      "job": "developer",
+      "age": 18,
+      "email": "anand.amarzayaa1@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=1&backgroundColor=b6e3f4",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
-        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mouse" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        },
+        {
+          "name": "Mouse",
+          "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=mouse"
+        }
+      ],
+      "weight_kg": 63,
+      "height_cm": 161
     },
-    { "id": 2, "firstname": "Ананд", "lastname": "Бамбацогт", "job": "junior", "age": 17, "email": "anand.bambatsogt2@gmail.com", "password": "123456",
+    {
+      "id": 2,
+      "firstname": "Ананд",
+      "lastname": "Бамбацогт",
+      "job": "junior",
+      "age": 17,
+      "email": "anand.bambatsogt2@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=2&backgroundColor=c0aede",
       "items": [
-        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" },
-        { "name": "Pen Set", "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=pen+set" }
-      ]
+        {
+          "name": "Notebook",
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=notebook"
+        },
+        {
+          "name": "Pen Set",
+          "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=pen+set"
+        }
+      ],
+      "weight_kg": 78,
+      "height_cm": 178
     },
-    { "id": 3, "firstname": "Анхзаяа", "lastname": "Пурэвсурэн", "job": "designer", "age": 18, "email": "ankhzayaa.purevsuren3@gmail.com", "password": "123456",
+    {
+      "id": 3,
+      "firstname": "Анхзаяа",
+      "lastname": "Пурэвсурэн",
+      "job": "designer",
+      "age": 18,
+      "email": "ankhzayaa.purevsuren3@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=3&backgroundColor=d1d4f9",
       "items": [
-        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
-        { "name": "Stylus Pen", "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=stylus+pen" }
-      ]
+        {
+          "name": "Drawing Tablet",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=drawing+tablet"
+        },
+        {
+          "name": "Stylus Pen",
+          "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=stylus+pen"
+        }
+      ],
+      "weight_kg": 56,
+      "height_cm": 178
     },
-    { "id": 4, "firstname": "Арвидах", "lastname": "Пурэвдорж", "job": "developer", "age": 19, "email": "arvidakh.purevdorj4@gmail.com", "password": "123456",
+    {
+      "id": 4,
+      "firstname": "Арвидах",
+      "lastname": "Пурэвдорж",
+      "job": "developer",
+      "age": 19,
+      "email": "arvidakh.purevdorj4@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=4&backgroundColor=b6e3f4",
       "items": [
-        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=keyboard" },
-        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=monitor" }
-      ]
+        {
+          "name": "Keyboard",
+          "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=keyboard"
+        },
+        {
+          "name": "Monitor",
+          "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=monitor"
+        }
+      ],
+      "weight_kg": 76,
+      "height_cm": 180
     },
-    { "id": 5, "firstname": "Ариунбаяр", "lastname": "Амгаабазар", "job": "manager", "age": 18, "email": "ariunbayar.amgaabazar5@gmail.com", "password": "123456",
+    {
+      "id": 5,
+      "firstname": "Ариунбаяр",
+      "lastname": "Амгаабазар",
+      "job": "manager",
+      "age": 18,
+      "email": "ariunbayar.amgaabazar5@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=5&backgroundColor=ffd5dc",
       "items": [
-        { "name": "Planner", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=planner" },
-        { "name": "Flash Drive", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+flash+drive" }
-      ]
+        {
+          "name": "Planner",
+          "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=planner"
+        },
+        {
+          "name": "Flash Drive",
+          "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=usb+flash+drive"
+        }
+      ],
+      "weight_kg": 62,
+      "height_cm": 167
     },
-    { "id": 6, "firstname": "Батбилэг", "lastname": "Энхбат", "job": "junior", "age": 17, "email": "batbileg.enkhbat6@gmail.com", "password": "123456",
+    {
+      "id": 6,
+      "firstname": "Батбилэг",
+      "lastname": "Энхбат",
+      "job": "junior",
+      "age": 17,
+      "email": "batbileg.enkhbat6@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=6&backgroundColor=c0aede",
       "items": [
-        { "name": "Headphones", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=headphones" },
-        { "name": "Laptop Stand", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop+stand" }
-      ]
+        {
+          "name": "Headphones",
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=headphones"
+        },
+        {
+          "name": "Laptop Stand",
+          "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop+stand"
+        }
+      ],
+      "weight_kg": 79,
+      "height_cm": 172
     },
-    { "id": 7, "firstname": "Золбоо", "lastname": "Азжаргал", "job": "developer", "age": 18, "email": "zolboo.azjargal7@gmail.com", "password": "123456",
+    {
+      "id": 7,
+      "firstname": "Золбоо",
+      "lastname": "Азжаргал",
+      "job": "developer",
+      "age": 18,
+      "email": "zolboo.azjargal7@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=7&backgroundColor=b6e3f4",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
-        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=keyboard" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        },
+        {
+          "name": "Keyboard",
+          "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=keyboard"
+        }
+      ],
+      "weight_kg": 64,
+      "height_cm": 161
     },
-    { "id": 8, "firstname": "Зоригт", "lastname": "Эрхүүбат", "job": "designer", "age": 17, "email": "zorigt.erkhuubat8@gmail.com", "password": "123456",
+    {
+      "id": 8,
+      "firstname": "Зоригт",
+      "lastname": "Эрхүүбат",
+      "job": "designer",
+      "age": 17,
+      "email": "zorigt.erkhuubat8@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=8&backgroundColor=d1d4f9",
       "items": [
-        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
-        { "name": "Color Pencils", "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=color+pencils" }
-      ]
+        {
+          "name": "Drawing Tablet",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=drawing+tablet"
+        },
+        {
+          "name": "Color Pencils",
+          "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=color+pencils"
+        }
+      ],
+      "weight_kg": 66,
+      "height_cm": 167
     },
-    { "id": 9, "firstname": "Маргад", "lastname": "Эрдэнэчулуун", "job": "manager", "age": 19, "email": "margad.erdenechuluun9@gmail.com", "password": "123456",
+    {
+      "id": 9,
+      "firstname": "Маргад",
+      "lastname": "Эрдэнэчулуун",
+      "job": "manager",
+      "age": 19,
+      "email": "margad.erdenechuluun9@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=9&backgroundColor=ffd5dc",
       "items": [
-        { "name": "Planner", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=planner" },
-        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=monitor" }
-      ]
+        {
+          "name": "Planner",
+          "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=planner"
+        },
+        {
+          "name": "Monitor",
+          "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=monitor"
+        }
+      ],
+      "weight_kg": 69,
+      "height_cm": 172
     },
-    { "id": 10, "firstname": "Мөнхболд", "lastname": "Мөнхбат", "job": "developer", "age": 18, "email": "munkhbold.munkhbat10@gmail.com", "password": "123456",
+    {
+      "id": 10,
+      "firstname": "Мөнхболд",
+      "lastname": "Мөнхбат",
+      "job": "developer",
+      "age": 18,
+      "email": "munkhbold.munkhbat10@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=10&backgroundColor=b6e3f4",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
-        { "name": "External SSD", "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=external+ssd" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        },
+        {
+          "name": "External SSD",
+          "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=external+ssd"
+        }
+      ],
+      "weight_kg": 68,
+      "height_cm": 161
     },
-    { "id": 11, "firstname": "Мөнхнар", "lastname": "Энхтөр", "job": "junior", "age": 17, "email": "munkhnar.enkhtuur11@gmail.com", "password": "123456",
+    {
+      "id": 11,
+      "firstname": "Мөнхнар",
+      "lastname": "Энхтөр",
+      "job": "junior",
+      "age": 17,
+      "email": "munkhnar.enkhtuur11@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=11&backgroundColor=c0aede",
       "items": [
-        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" },
-        { "name": "Flash Drive", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+flash+drive" }
-      ]
+        {
+          "name": "Notebook",
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=notebook"
+        },
+        {
+          "name": "Flash Drive",
+          "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=usb+flash+drive"
+        }
+      ],
+      "weight_kg": 71,
+      "height_cm": 163
     },
-    { "id": 12, "firstname": "Мөнхчимэг", "lastname": "Төвшин", "job": "designer", "age": 18, "email": "munkhchimeg.tovshin12@gmail.com", "password": "123456",
+    {
+      "id": 12,
+      "firstname": "Мөнхчимэг",
+      "lastname": "Төвшин",
+      "job": "designer",
+      "age": 18,
+      "email": "munkhchimeg.tovshin12@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=12&backgroundColor=d1d4f9",
       "items": [
-        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
-        { "name": "Stylus Pen", "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=stylus+pen" }
-      ]
+        {
+          "name": "Drawing Tablet",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=drawing+tablet"
+        },
+        {
+          "name": "Stylus Pen",
+          "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=stylus+pen"
+        }
+      ],
+      "weight_kg": 72,
+      "height_cm": 180
     },
-    { "id": 13, "firstname": "Няндорж", "lastname": "Цэрэнпурэв", "job": "developer", "age": 19, "email": "nyandorj.tserenpurev13@gmail.com", "password": "123456",
+    {
+      "id": 13,
+      "firstname": "Няндорж",
+      "lastname": "Цэрэнпурэв",
+      "job": "developer",
+      "age": 19,
+      "email": "nyandorj.tserenpurev13@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=13&backgroundColor=b6e3f4",
       "items": [
-        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mechanical+keyboard" },
-        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mouse" }
-      ]
+        {
+          "name": "Keyboard",
+          "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=mechanical+keyboard"
+        },
+        {
+          "name": "Mouse",
+          "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=mouse"
+        }
+      ],
+      "weight_kg": 79,
+      "height_cm": 172
     },
-    { "id": 14, "firstname": "Нямрагчаа", "lastname": "Ерөөлт", "job": "manager", "age": 18, "email": "nyamragchaa.yeroolt14@gmail.com", "password": "123456",
+    {
+      "id": 14,
+      "firstname": "Нямрагчаа",
+      "lastname": "Ерөөлт",
+      "job": "manager",
+      "age": 18,
+      "email": "nyamragchaa.yeroolt14@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=14&backgroundColor=ffd5dc",
       "items": [
-        { "name": "Planner", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=planner" },
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" }
-      ]
+        {
+          "name": "Planner",
+          "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=planner"
+        },
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        }
+      ],
+      "weight_kg": 74,
+      "height_cm": 176
     },
-    { "id": 15, "firstname": "Пурэвбат", "lastname": "Мөнхбат", "job": "junior", "age": 17, "email": "purevbat.munkhbat15@gmail.com", "password": "123456",
+    {
+      "id": 15,
+      "firstname": "Пурэвбат",
+      "lastname": "Мөнхбат",
+      "job": "junior",
+      "age": 17,
+      "email": "purevbat.munkhbat15@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=15&backgroundColor=c0aede",
       "items": [
-        { "name": "Headphones", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=headphones" },
-        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" }
-      ]
+        {
+          "name": "Headphones",
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=headphones"
+        },
+        {
+          "name": "Notebook",
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=notebook"
+        }
+      ],
+      "weight_kg": 58,
+      "height_cm": 174
     },
-    { "id": 16, "firstname": "Тэмүүлэн", "lastname": "Хурцбаатар", "job": "developer", "age": 18, "email": "temuulen.khurtsbaatar16@gmail.com", "password": "123456",
+    {
+      "id": 16,
+      "firstname": "Тэмүүлэн",
+      "lastname": "Хурцбаатар",
+      "job": "developer",
+      "age": 18,
+      "email": "temuulen.khurtsbaatar16@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=16&backgroundColor=b6e3f4",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
-        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=monitor" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        },
+        {
+          "name": "Monitor",
+          "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=monitor"
+        }
+      ],
+      "weight_kg": 50,
+      "height_cm": 177
     },
-    { "id": 17, "firstname": "Тэнүүн", "lastname": "Оч", "job": "designer", "age": 17, "email": "tenuun.och17@gmail.com", "password": "123456",
+    {
+      "id": 17,
+      "firstname": "Тэнүүн",
+      "lastname": "Оч",
+      "job": "designer",
+      "age": 17,
+      "email": "tenuun.och17@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=17&backgroundColor=d1d4f9",
       "items": [
-        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
-        { "name": "Color Pencils", "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=color+pencils" }
-      ]
+        {
+          "name": "Drawing Tablet",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=drawing+tablet"
+        },
+        {
+          "name": "Color Pencils",
+          "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=color+pencils"
+        }
+      ],
+      "weight_kg": 67,
+      "height_cm": 169
     },
-    { "id": 18, "firstname": "Тэргэл", "lastname": "Батбаатар", "job": "junior", "age": 18, "email": "tergel.batbaatar18@gmail.com", "password": "123456",
+    {
+      "id": 18,
+      "firstname": "Тэргэл",
+      "lastname": "Батбаатар",
+      "job": "junior",
+      "age": 18,
+      "email": "tergel.batbaatar18@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=18&backgroundColor=c0aede",
       "items": [
-        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" },
-        { "name": "Flash Drive", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+flash+drive" }
-      ]
+        {
+          "name": "Notebook",
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=notebook"
+        },
+        {
+          "name": "Flash Drive",
+          "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=usb+flash+drive"
+        }
+      ],
+      "weight_kg": 65,
+      "height_cm": 164
     },
-    { "id": 19, "firstname": "Цолмон", "lastname": "Батхишиг", "job": "developer", "age": 19, "email": "tsolmon.batkhishig19@gmail.com", "password": "123456",
+    {
+      "id": 19,
+      "firstname": "Цолмон",
+      "lastname": "Батхишиг",
+      "job": "developer",
+      "age": 19,
+      "email": "tsolmon.batkhishig19@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=19&backgroundColor=b6e3f4",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
-        { "name": "Keyboard", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=keyboard" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        },
+        {
+          "name": "Keyboard",
+          "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=keyboard"
+        }
+      ],
+      "weight_kg": 64,
+      "height_cm": 160
     },
-    { "id": 20, "firstname": "Цэлмүүн", "lastname": "Баясгалан", "job": "manager", "age": 18, "email": "tselmuun.bayasgalan20@gmail.com", "password": "123456",
+    {
+      "id": 20,
+      "firstname": "Цэлмүүн",
+      "lastname": "Баясгалан",
+      "job": "manager",
+      "age": 18,
+      "email": "tselmuun.bayasgalan20@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=20&backgroundColor=ffd5dc",
       "items": [
-        { "name": "Planner", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=planner" },
-        { "name": "Webcam", "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=webcam" }
-      ]
+        {
+          "name": "Planner",
+          "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=planner"
+        },
+        {
+          "name": "Webcam",
+          "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=webcam"
+        }
+      ],
+      "weight_kg": 59,
+      "height_cm": 180
     },
-    { "id": 21, "firstname": "Цэлмэг", "lastname": "Батнасан", "job": "designer", "age": 17, "email": "tselmeg.batnasan21@gmail.com", "password": "123456",
+    {
+      "id": 21,
+      "firstname": "Цэлмэг",
+      "lastname": "Батнасан",
+      "job": "designer",
+      "age": 17,
+      "email": "tselmeg.batnasan21@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=21&backgroundColor=d1d4f9",
       "items": [
-        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
-        { "name": "Stylus Pen", "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=stylus+pen" }
-      ]
+        {
+          "name": "Drawing Tablet",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=drawing+tablet"
+        },
+        {
+          "name": "Stylus Pen",
+          "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=stylus+pen"
+        }
+      ],
+      "weight_kg": 55,
+      "height_cm": 170
     },
-    { "id": 22, "firstname": "Чингүн", "lastname": "Ганцацрал", "job": "junior", "age": 18, "email": "chingun.gantsatsral22@gmail.com", "password": "123456",
+    {
+      "id": 22,
+      "firstname": "Чингүн",
+      "lastname": "Ганцацрал",
+      "job": "junior",
+      "age": 18,
+      "email": "chingun.gantsatsral22@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=22&backgroundColor=c0aede",
       "items": [
-        { "name": "Headphones", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=headphones" },
-        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mouse" }
-      ]
+        {
+          "name": "Headphones",
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=headphones"
+        },
+        {
+          "name": "Mouse",
+          "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=mouse"
+        }
+      ],
+      "weight_kg": 50,
+      "height_cm": 165
     },
-    { "id": 23, "firstname": "Энхбилэг", "lastname": "Эрдэнэбаатар", "job": "developer", "age": 19, "email": "enkhbileg.erdenebaatar23@gmail.com", "password": "123456",
+    {
+      "id": 23,
+      "firstname": "Энхбилэг",
+      "lastname": "Эрдэнэбаатар",
+      "job": "developer",
+      "age": 19,
+      "email": "enkhbileg.erdenebaatar23@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=23&backgroundColor=b6e3f4",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
-        { "name": "External SSD", "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=external+ssd" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        },
+        {
+          "name": "External SSD",
+          "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=external+ssd"
+        }
+      ],
+      "weight_kg": 68,
+      "height_cm": 161
     },
-    { "id": 24, "firstname": "Энхтүшиг", "lastname": "Сугар", "job": "manager", "age": 18, "email": "enkhtushig.sugar24@gmail.com", "password": "123456",
+    {
+      "id": 24,
+      "firstname": "Энхтүшиг",
+      "lastname": "Сугар",
+      "job": "manager",
+      "age": 18,
+      "email": "enkhtushig.sugar24@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=24&backgroundColor=ffd5dc",
       "items": [
-        { "name": "Planner", "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=planner" },
-        { "name": "Monitor", "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=monitor" }
-      ]
+        {
+          "name": "Planner",
+          "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=planner"
+        },
+        {
+          "name": "Monitor",
+          "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=monitor"
+        }
+      ],
+      "weight_kg": 80,
+      "height_cm": 177
     },
-    { "id": 25, "firstname": "Эрхэмбилэг", "lastname": "Мөнхбат", "job": "designer", "age": 17, "email": "erkhembileg.munkhbat25@gmail.com", "password": "123456",
+    {
+      "id": 25,
+      "firstname": "Эрхэмбилэг",
+      "lastname": "Мөнхбат",
+      "job": "designer",
+      "age": 17,
+      "email": "erkhembileg.munkhbat25@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=25&backgroundColor=d1d4f9",
       "items": [
-        { "name": "Drawing Tablet", "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=drawing+tablet" },
-        { "name": "Notebook", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=notebook" }
-      ]
+        {
+          "name": "Drawing Tablet",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=drawing+tablet"
+        },
+        {
+          "name": "Notebook",
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=notebook"
+        }
+      ],
+      "weight_kg": 53,
+      "height_cm": 176
     },
-    { "id": 26, "firstname": "Уранхишиг", "lastname": "Бат-Эрдэнэ", "job": "junior", "age": 18, "email": "urankhishig.bat-erdene26@gmail.com", "password": "123456",
+    {
+      "id": 26,
+      "firstname": "Уранхишиг",
+      "lastname": "Бат-Эрдэнэ",
+      "job": "junior",
+      "age": 18,
+      "email": "urankhishig.bat-erdene26@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=26&backgroundColor=c0aede",
       "items": [
-        { "name": "Headphones", "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=headphones" },
-        { "name": "Flash Drive", "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=usb+flash+drive" }
-      ]
+        {
+          "name": "Headphones",
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=headphones"
+        },
+        {
+          "name": "Flash Drive",
+          "image": "https://images.unsplash.com/photo-1619654954958-ea372c97fde1?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=usb+flash+drive"
+        }
+      ],
+      "weight_kg": 67,
+      "height_cm": 173
     },
-    { "id": 27, "firstname": "Manlaibaatar", "lastname": "Ulambayr", "job": "junior", "age": 16, "email": "manlaibaatar.ulambayr27@gmail.com", "password": "123456",
+    {
+      "id": 27,
+      "firstname": "Manlaibaatar",
+      "lastname": "Ulambayr",
+      "job": "junior",
+      "age": 16,
+      "email": "manlaibaatar.ulambayr27@gmail.com",
+      "password": "123456",
       "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=27&backgroundColor=b6e3f4",
       "items": [
-        { "name": "Laptop", "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=laptop" },
-        { "name": "Mouse", "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop", "link": "https://www.amazon.com/s?k=mouse" }
-      ]
+        {
+          "name": "Laptop",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=laptop"
+        },
+        {
+          "name": "Mouse",
+          "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop",
+          "link": "https://www.amazon.com/s?k=mouse"
+        }
+      ],
+      "weight_kg": 57,
+      "height_cm": 164
     }
   ]
 }
