@@ -1,10 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import data from "../utils/data.json";
 
 export default function Page() {
   const [search, setSearch] = useState("");
+  const [activeFilter, setActiveFilter] = useState("all");
+  const searchRef = useRef(null);
 
   const allUsers = [
     ...data.students.map((u) => ({ ...u, type: "student" })),
@@ -46,12 +48,9 @@ export default function Page() {
 
   const handleLogin = () => {
     if (!loginTarget) return;
-
     const isTeacher = loginTarget.type === "teacher";
     let emailMatch = false;
-
     if (isTeacher) {
-      // Teachers may not have email — match by name or skip email check
       emailMatch = loginTarget.email
         ? loginEmail.trim().toLowerCase() === loginTarget.email.toLowerCase()
         : true;
@@ -59,9 +58,7 @@ export default function Page() {
       emailMatch =
         loginEmail.trim().toLowerCase() === loginTarget.email.toLowerCase();
     }
-
     const passMatch = loginPassword === loginTarget.password;
-
     if (emailMatch && passMatch) {
       setLoginSuccess(true);
       setLoggedInUser(loginTarget);
@@ -73,16 +70,18 @@ export default function Page() {
     }
   };
 
-  const filteredUsers = users.filter((user) =>
-    `${user.firstname} ${user.lastname} ${user.email}`
+  const filteredUsers = users.filter((user) => {
+    const matchesSearch = `${user.firstname} ${user.lastname} ${user.email}`
       .toLowerCase()
-      .includes(search.toLowerCase())
-  );
+      .includes(search.toLowerCase());
+    const matchesFilter =
+      activeFilter === "all" || user.type === activeFilter;
+    return matchesSearch && matchesFilter;
+  });
 
   const students = filteredUsers.filter((u) => u.type === "student");
   const teachers = filteredUsers.filter((u) => u.type === "teacher");
 
-  // Role badge color mapping
   const jobColors = {
     developer: "bg-blue-100 text-blue-700",
     designer: "bg-purple-100 text-purple-700",
@@ -90,9 +89,14 @@ export default function Page() {
     junior: "bg-yellow-100 text-yellow-700",
   };
 
+  const filterTabs = [
+    { key: "all", label: "All", count: filteredUsers.length },
+    { key: "student", label: "Students", count: students.length },
+    { key: "teacher", label: "Teachers", count: teachers.length },
+  ];
+
   const Card = ({ user }) => (
     <div className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-200 flex flex-col overflow-hidden">
-      {/* Profile header */}
       <div className="flex items-center gap-3 p-5 pb-3">
         {user.image && (
           <img
@@ -116,10 +120,8 @@ export default function Page() {
         </div>
       </div>
 
-      {/* Divider */}
       <div className="border-t border-gray-100 mx-5" />
 
-      {/* Items */}
       {user.items?.length > 0 && (
         <div className="px-5 pt-3 pb-2 flex-1">
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2">
@@ -144,7 +146,6 @@ export default function Page() {
                       e.target.src = `https://placehold.co/64x64?text=${encodeURIComponent(item.name)}`;
                     }}
                   />
-                  {/* Link indicator */}
                   <span className="absolute -top-1 -right-1 bg-indigo-500 text-white text-[9px] rounded-full w-4 h-4 flex items-center justify-center shadow">
                     ↗
                   </span>
@@ -158,7 +159,6 @@ export default function Page() {
         </div>
       )}
 
-      {/* Action buttons */}
       <div className="flex gap-2 px-5 pb-5 pt-3 mt-auto">
         <button
           onClick={() => openLogin(user)}
@@ -187,73 +187,122 @@ export default function Page() {
         </p>
       </div>
 
-      {/* Search bar */}
-      <div className="flex justify-center mb-10">
-        <div className="relative w-full max-w-md">
-          <span className="absolute inset-y-0 left-3 flex items-center text-gray-400 pointer-events-none">
-            🔍
+      {/* Search Area */}
+      <div className="flex flex-col items-center gap-4 mb-10">
+
+        {/* Search input */}
+        <div className="relative w-full max-w-lg">
+          <span className="absolute inset-y-0 left-4 flex items-center pointer-events-none text-gray-400">
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <circle cx="11" cy="11" r="8" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35" />
+            </svg>
           </span>
+
           <input
+            ref={searchRef}
             type="text"
-            placeholder="Search by name or email..."
+            placeholder="Search by name or email…"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="border pl-9 pr-4 py-3 w-full rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-white text-sm"
+            className="w-full pl-11 pr-11 py-3.5 rounded-2xl border-2 border-gray-200 bg-white text-gray-900 text-sm font-medium placeholder-gray-400 shadow-sm focus:outline-none focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100 transition-all duration-200"
           />
+
           {search && (
             <button
-              onClick={() => setSearch("")}
-              className="absolute inset-y-0 right-3 flex items-center text-gray-400 hover:text-gray-600"
+              onClick={() => { setSearch(""); searchRef.current?.focus(); }}
+              className="absolute inset-y-0 right-4 flex items-center text-gray-400 hover:text-gray-700 transition-colors"
+              aria-label="Clear search"
             >
-              ✕
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
             </button>
+          )}
+        </div>
+
+        {/* Filter chips + result count */}
+        <div className="flex items-center gap-2 flex-wrap justify-center">
+          {filterTabs.map((tab) => (
+            <button
+              key={tab.key}
+              onClick={() => setActiveFilter(tab.key)}
+              className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-sm font-semibold border transition-all duration-150 ${
+                activeFilter === tab.key
+                  ? "bg-indigo-600 text-white border-indigo-600 shadow-sm"
+                  : "bg-white text-gray-600 border-gray-200 hover:border-indigo-300 hover:text-indigo-600"
+              }`}
+            >
+              {tab.label}
+              <span
+                className={`text-xs px-1.5 py-0.5 rounded-full font-bold ${
+                  activeFilter === tab.key
+                    ? "bg-white/25 text-white"
+                    : "bg-gray-100 text-gray-500"
+                }`}
+              >
+                {tab.count}
+              </span>
+            </button>
+          ))}
+
+          {search && (
+            <span className="text-xs text-gray-400 ml-1">
+              {filteredUsers.length === 0
+                ? "No results"
+                : `${filteredUsers.length} result${filteredUsers.length !== 1 ? "s" : ""}`}
+            </span>
           )}
         </div>
       </div>
 
       {/* Students Section */}
-      <section className="mb-14">
-        <div className="flex items-center gap-3 mb-6">
-          <h2 className="text-2xl font-bold text-gray-800">Students</h2>
-          <span className="bg-indigo-100 text-indigo-700 text-sm font-semibold px-3 py-0.5 rounded-full">
-            {students.length}
-          </span>
-        </div>
-        {students.length === 0 ? (
-          <div className="text-center py-12 text-gray-400">
-            <p className="text-4xl mb-3">🎓</p>
-            <p>No students found.</p>
+      {(activeFilter === "all" || activeFilter === "student") && (
+        <section className="mb-14">
+          <div className="flex items-center gap-3 mb-6">
+            <h2 className="text-2xl font-bold text-gray-800">Students</h2>
+            <span className="bg-indigo-100 text-indigo-700 text-sm font-semibold px-3 py-0.5 rounded-full">
+              {students.length}
+            </span>
           </div>
-        ) : (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {students.map((u) => (
-              <Card key={u.id} user={u} />
-            ))}
-          </div>
-        )}
-      </section>
+          {students.length === 0 ? (
+            <div className="text-center py-12 text-gray-400">
+              <p className="text-4xl mb-3">🎓</p>
+              <p>No students found.</p>
+            </div>
+          ) : (
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {students.map((u) => (
+                <Card key={u.id} user={u} />
+              ))}
+            </div>
+          )}
+        </section>
+      )}
 
       {/* Teachers Section */}
-      <section>
-        <div className="flex items-center gap-3 mb-6">
-          <h2 className="text-2xl font-bold text-gray-800">Teachers</h2>
-          <span className="bg-green-100 text-green-700 text-sm font-semibold px-3 py-0.5 rounded-full">
-            {teachers.length}
-          </span>
-        </div>
-        {teachers.length === 0 ? (
-          <div className="text-center py-12 text-gray-400">
-            <p className="text-4xl mb-3">👩‍🏫</p>
-            <p>No teachers found.</p>
+      {(activeFilter === "all" || activeFilter === "teacher") && (
+        <section>
+          <div className="flex items-center gap-3 mb-6">
+            <h2 className="text-2xl font-bold text-gray-800">Teachers</h2>
+            <span className="bg-green-100 text-green-700 text-sm font-semibold px-3 py-0.5 rounded-full">
+              {teachers.length}
+            </span>
           </div>
-        ) : (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {teachers.map((u) => (
-              <Card key={u.id} user={u} />
-            ))}
-          </div>
-        )}
-      </section>
+          {teachers.length === 0 ? (
+            <div className="text-center py-12 text-gray-400">
+              <p className="text-4xl mb-3">👩‍🏫</p>
+              <p>No teachers found.</p>
+            </div>
+          ) : (
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {teachers.map((u) => (
+                <Card key={u.id} user={u} />
+              ))}
+            </div>
+          )}
+        </section>
+      )}
 
       {/* Login Modal */}
       {loginTarget && (
@@ -265,7 +314,6 @@ export default function Page() {
             onClick={(e) => e.stopPropagation()}
             className="bg-white p-7 rounded-2xl w-full max-w-sm shadow-2xl"
           >
-            {/* Avatar */}
             {loginTarget.image && (
               <div className="flex justify-center mb-4">
                 <img
@@ -287,63 +335,39 @@ export default function Page() {
                   <span className="text-2xl">✅</span>
                 </div>
                 <p className="text-green-600 font-semibold text-lg mb-1">Login successful!</p>
-                <p className="text-gray-400 text-sm mb-5">
-                  Welcome, {loginTarget.firstname}!
-                </p>
-
-                {/* Show items after login */}
+                <p className="text-gray-400 text-sm mb-5">Welcome, {loginTarget.firstname}!</p>
                 {loginTarget.items?.length > 0 && (
                   <div className="mb-5 text-left">
-                    <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2">
-                      Your items
-                    </p>
+                    <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2">Your items</p>
                     <div className="flex flex-wrap gap-3 justify-center">
                       {loginTarget.items.map((item, i) => (
-                        <a
-                          key={i}
-                          href={item.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="group flex flex-col items-center gap-1 hover:opacity-80 transition-opacity"
-                        >
-                          <img
-                            src={item.image}
-                            alt={item.name}
+                        <a key={i} href={item.link} target="_blank" rel="noopener noreferrer"
+                          className="group flex flex-col items-center gap-1 hover:opacity-80 transition-opacity">
+                          <img src={item.image} alt={item.name}
                             className="w-16 h-16 rounded-xl object-cover border border-gray-200 group-hover:border-indigo-300 transition-colors"
-                            onError={(e) => {
-                              e.target.src = `https://placehold.co/64x64?text=${encodeURIComponent(item.name)}`;
-                            }}
+                            onError={(e) => { e.target.src = `https://placehold.co/64x64?text=${encodeURIComponent(item.name)}`; }}
                           />
-                          <span className="text-xs text-gray-500 group-hover:text-indigo-600">
-                            {item.name}
-                          </span>
+                          <span className="text-xs text-gray-500 group-hover:text-indigo-600">{item.name}</span>
                         </a>
                       ))}
                     </div>
                   </div>
                 )}
-
-                <button
-                  onClick={closeLogin}
-                  className="bg-indigo-600 hover:bg-indigo-700 text-white w-full py-2.5 rounded-xl font-medium transition"
-                >
+                <button onClick={closeLogin} className="bg-indigo-600 hover:bg-indigo-700 text-white w-full py-2.5 rounded-xl font-medium transition">
                   Close
                 </button>
               </div>
             ) : (
               <>
-                {/* For teachers without email, skip email field */}
                 {loginTarget.type === "teacher" && !loginTarget.email?.includes("@") ? (
-                  <p className="text-xs text-gray-400 text-center mb-3">
-                    Enter your password to log in.
-                  </p>
+                  <p className="text-xs text-gray-400 text-center mb-3">Enter your password to log in.</p>
                 ) : (
                   <input
                     type="email"
                     placeholder="Email"
                     value={loginEmail}
                     onChange={(e) => setLoginEmail(e.target.value)}
-                    className="border p-3 w-full rounded-xl mb-3 focus:outline-none focus:ring-2 focus:ring-indigo-400 text-sm"
+                    className="border-2 border-gray-200 p-3 w-full rounded-xl mb-3 focus:outline-none focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100 text-sm text-gray-900 placeholder-gray-400 transition-all"
                   />
                 )}
                 <input
@@ -352,22 +376,19 @@ export default function Page() {
                   value={loginPassword}
                   onChange={(e) => setLoginPassword(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && handleLogin()}
-                  className="border p-3 w-full rounded-xl mb-3 focus:outline-none focus:ring-2 focus:ring-indigo-400 text-sm"
+                  className="border-2 border-gray-200 p-3 w-full rounded-xl mb-3 focus:outline-none focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100 text-sm text-gray-900 placeholder-gray-400 transition-all"
                 />
-
                 {loginError && (
                   <div className="bg-red-50 border border-red-200 text-red-500 text-sm mb-3 px-3 py-2 rounded-lg text-center">
                     {loginError}
                   </div>
                 )}
-
                 <button
                   onClick={handleLogin}
                   className="bg-indigo-600 hover:bg-indigo-700 active:scale-95 text-white w-full py-2.5 rounded-xl font-medium transition-all"
                 >
                   Login
                 </button>
-
                 <button
                   onClick={closeLogin}
                   className="w-full mt-3 text-sm text-gray-400 hover:text-gray-600 transition-colors py-1"
